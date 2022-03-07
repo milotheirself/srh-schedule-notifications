@@ -1,0 +1,10 @@
+{
+  "apps": [
+    {
+      "name": "tasus-worker",
+      "script": "lib/worker.js",
+      "node_args": ["--enable-source-maps"],
+      "restart_delay": 10000
+    }
+  ]
+}

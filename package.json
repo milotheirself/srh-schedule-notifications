@@ -1,0 +1,21 @@
+{
+  "name": "@milotheirself/tasus-worker",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev:start": "node ./lib/worker.js",
+    "pm2:start": "pm2 start process.json",
+    "pm2:stop": "pm2 stop process.json",
+    "pm2:delete": "pm2 delete process.json"
+  },
+  "engines": {
+    "node": ">=16.6.0"
+  },
+  "type": "module",
+  "dependencies": {
+    "discord.js": "^13.6.0",
+    "dotenv": "^16.0.0",
+    "pm2": "^5.2.0",
+    "puppeteer": "^13.4.1"
+  }
+}
