@@ -1,2 +1,12 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+* text=auto eol=lf 
+
+*.md -linguist-vendored
+*.md -linguist-generated
+*.md -linguist-documentation
+*.md linguist-detectable
+
+CODE_OF_CONDUCT.md -linguist-detectable
+CHANGELOG.md -linguist-detectable
+LICENSE.md -linguist-detectable
+README.md -linguist-detectable
+REVIEWING.md -linguist-detectable

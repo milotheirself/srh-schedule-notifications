@@ -1,14 +1,12 @@
-# ~ dependencies
-bower_components
+.DS_Store
+
 node_modules
 
-# ~ compiled output
-result
-
-# ~ environment
-.env
-
-# ~ misc
-.DS_Store
 npm-debug.log
 package-lock.json
+
+*.draft.*
+*.notes.*
+*.env
+
+result
