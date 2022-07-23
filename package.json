@@ -1,5 +1,5 @@
 {
-  "name": "@milotheirself/tasus-worker",
+  "name": "srh-schedule-worker",
   "version": "0.0.1",
   "private": true,
   "scripts": {

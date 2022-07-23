@@ -1,12 +1,13 @@
 .DS_Store
 
-node_modules
+*.draft*
+*.notes*
 
+.booklet
+.env
+
+node_modules
 npm-debug.log
 package-lock.json
-
-*.draft.*
-*.notes.*
-*.env
 
 result
