@@ -1,7 +1,7 @@
 {
   "apps": [
     {
-      "name": "tasus-worker",
+      "name": "srh-schedule-worker",
       "script": "./lib/main.js",
       "node_args": ["--enable-source-maps"],
       "restart_delay": 10000
